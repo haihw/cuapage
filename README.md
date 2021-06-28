@@ -23,7 +23,7 @@ Syntax highlighted code block
 
 **Bold** and _Italic_ and `Code` text
 
-[Link](/) and ![Image](https://github.com/haihw/cuapage/raw/gh-pages/cua-logo-blue.png)
+[Link](url) and ![Image](sr)
 ```
 
 For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
