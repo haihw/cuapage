@@ -4,11 +4,14 @@
 import Love
 import Happiness
 import HwFamily
-let cua = HwBaby(
+enum Gender{...}
+class HwBaby{...}
+extension Date{...}
+let 🦀 = HwBaby(
     fullName: "Nguyễn Hữu Hoàng Nam",
     gender: Gender.Male,
-    dob: formatter.date(from: "29/06/2021")!
+    dob: Date("29/06/2021")
 )
-cua.helloWorld()
+🦀.helloWorld()
 
 ```
