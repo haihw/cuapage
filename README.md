@@ -16,7 +16,6 @@ let 🦀 = HwBaby(
 <details>
     <summary>Runnable swift code here</summary>
     
-    
     ```swift
     import Foundation
     enum Gender{
@@ -83,6 +82,6 @@ let 🦀 = HwBaby(
     print("Name: \(🦀.fullName))
     print("Date of birth: \(🦀.dob.string()))
     🦀.helloWorld()
+ 
     ``` 
-
 </details>
