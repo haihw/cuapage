@@ -14,7 +14,7 @@ let 🦀 = HwBaby(
 ```
 
 <details>
-  <summary>Runable swift code here</summary>
+  <summary>Runnable swift code here</summary>
    
 ```swift
 import Foundation
@@ -79,8 +79,8 @@ let 🦀 = HwBaby(
     dob: Date("29/06/2021 10:00"),
     gender: Gender.Male
 )
-print(🦀.fullName)
-print(🦀.dob.string())
+print("Name: \(🦀.fullName))
+print("Date of birth: \(🦀.dob.string()))
 🦀.helloWorld()
 ``` 
 </details>
