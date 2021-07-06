@@ -85,3 +85,6 @@ print("Date of birth: \(🦀.dob.string())")
 
 ``` 
 </details>
+
+## Happy Cua
+![Cua's Smile](img/CuaSmiling.JPG)
