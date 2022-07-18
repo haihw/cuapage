@@ -7,7 +7,6 @@ import HwFamily
 let 🦀 = HwBaby(
     fullName: "Nguyễn Hữu Hoàng Nam",
     gender: Gender.Male,
-    dob: Date("29/06/2021")
 )
 🦀.helloWorld()
 
@@ -58,29 +57,12 @@ class HwBaby: Hw, Linz{
         print("Oe! Oe! Oe!")
     }
 }
-extension Date{
-    static var formatter: DateFormatter{
-        get {
-            let formatter = DateFormatter()
-            formatter.dateFormat = "dd/MM/yyyy hh:mm"
-            formatter.timeZone = TimeZone(identifier: "Asia/Ho_Chi_Minh")
-            return formatter
-        }
-    }
-    init(_ dateStr: String){
-        self = Date.formatter.date(from: dateStr)!
-    }
-    func string() -> String {
-        return Date.formatter.string(from: self)
-    }
-}
+
 let 🦀 = HwBaby(
     name: "Hữu Hoàng Nam",
-    dob: Date("29/06/2021 10:00"),
     gender: Gender.Male
 )
 print("Name: \(🦀.fullName)")
-print("Date of birth: \(🦀.dob.string())")
 🦀.helloWorld()
 
 ``` 
